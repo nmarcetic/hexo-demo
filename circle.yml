@@ -1,6 +1,9 @@
 deployment:
   production:
     branch: master
+    test:
+      override:
+        - echo "test"
     commands:
       - git config --global user.name "CircleCI"
       - git config --global user.email "me@nmarcetic.com"

@@ -69,5 +69,5 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://${Value of GH_TOKEN}:x-oauth-basic@github.com/nmarcetic/myblog.git
-  branch: master
+  repository: https://:x-oauth-basic@github.com/sazzer/blog.git
+  branch: gh-pages
