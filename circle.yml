@@ -7,7 +7,7 @@ deployment:
     commands:
       - git config --global user.name "CircleCI"
       - git config --global user.email "me@nmarcetic.com"
-      - sed -i'' "s~https://github.com/nmarcetic/myblog.git~https://${GH_TOKEN}:x-oauth-basic@github.com/nmarcetic/myblog.git~" _config.yml
+      - sed -i'' "s~https://github.com/nmarcetic/hexo-demo.git~https://${GH_TOKEN}:x-oauth-basic@github.com/nmarcetic/hexo-demo.git~" _config.yml
       - rm -rf .deploy_git/
       - hexo clean
       - hexo generate

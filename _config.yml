@@ -13,7 +13,7 @@ timezone:
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://nmarcetic.github.io
-root: /myblog/
+root: /hexo-demo/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -69,5 +69,5 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://github.com/nmarcetic/myblog.git
+  repository: https://github.com/nmarcetic/hexo-demo.git
   branch: gh-pages

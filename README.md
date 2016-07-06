@@ -1,3 +1,2 @@
-# myblog
-My personal blog, powered by [hexo.io](https://hexo.io/) and [circleci](https://circleci.com/)
-You can see it in action [here](https://nmarcetic.github.io/myblog/) 
+# Demo project
+[hexo.io](https://hexo.io/) demo of fetching a dynamic content and auto rebuild with [circleci](https://circleci.com/)
