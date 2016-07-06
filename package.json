@@ -17,6 +17,6 @@
     "hexo-server": "^0.2.0",
     "hexo-deployer-git": "~0.2.0",
     "extend": "~3.0.0",
-    "sync-request": "~3.0.1"
+    "sync-request": "@2.2.0"
   }
 }
