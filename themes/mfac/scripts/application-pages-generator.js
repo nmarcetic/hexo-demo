@@ -4,7 +4,7 @@ hexo.extend.generator.register('application-pages', function(locals) {
 		return {
 			path : 'applications/' + app.name.toLowerCase().replace(/\s+/g, '-') + '.html',
 			data : app,
-			layout : 'application'
+			layout : 'page'
 		};
 	});
 });
